@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 15pt 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #006eff;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    font-size: 12pt;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.registration-form {
+    padding: 30px;
+}
+
+.registration-form p {
+    text-align: center;
+    padding: 10px;
+    color: gray;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 5px;
+    width: 300px;
+    outline: none;
+    font-size: 13pt;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration-form input[type="submit"] {
+    cursor: pointer;
+    background-color: #006eff;
+    color: #fff;
+    transition: all .2s;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #0063e6;
+}
+
+#registration-form p {
+    font-size: 10pt;
+    color: red;
+    font-weight: 700;
+    width: 300px;
+}
+
+#edit-form p {
+    font-size: 10pt;
+    color: red;
+    font-weight: 700;
+    width: 300px;
+}
+
+.registration-form select {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 5px;
+    width: 300px;
+    outline: none;
+    font-size: 13pt;
+    font-family: 'Poppins', sans-serif;
+}
